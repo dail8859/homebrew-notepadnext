@@ -1,4 +1,4 @@
-# NotepadNext Homebrew repository
+# [Notepad Next](https://github.com/dail8859/NotepadNext) Homebrew repository
 
 ## How do I install these formulae?
 
