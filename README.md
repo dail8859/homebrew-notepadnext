@@ -2,7 +2,7 @@
 
 ## How do I install these formulae?
 
-Add this tap by executing `brew tap woj-tek/notepadnext`
+Add this tap by executing `brew tap dail8859/notepadnext`
 
 And then install NotepadNext formula:
 `brew install --no-quarantine notepadnext`
