@@ -15,7 +15,7 @@ cask 'notepadnext' do
   depends_on macos: ">= :big_sur"
 
   app "Notepadnext.app"
-  binary "#{appdir}/Notepadnext.app/Contents/MacOS/NotepadNext"
+  binary "#{appdir}/Notepadnext.app/Contents/MacOS/NotepadNext", target: "notepad-next"
 
   # No zap stanza required
 end
