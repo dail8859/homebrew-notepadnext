@@ -17,5 +17,11 @@ cask 'notepadnext' do
   app "Notepadnext.app"
   binary "#{appdir}/Notepadnext.app/Contents/MacOS/NotepadNext", target: "notepad-next"
 
-  # No zap stanza required
+  uninstall quit: "io.github.dail8859.NotepadNext"
+
+  zap trash: [
+    "~/.config/NotepadNext",
+    "~/Library/Application Support/NotepadNext",
+    "~/Library/Saved Application State/io.github.dail8859.NotepadNext.savedState",
+  ]
 end
