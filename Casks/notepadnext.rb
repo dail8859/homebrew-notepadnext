@@ -2,7 +2,7 @@ cask 'notepadnext' do
   version '0.13'
   sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
 
-  url "https://github.com/dail8859/NotepadNext/releases/download/v#{version}//NotepadNext-v#{version}.dmg"
+  url "https://github.com/dail8859/NotepadNext/releases/download/v#{version}/NotepadNext-v#{version}.dmg"
   name 'NotepadNext'
   desc 'A cross-platform, reimplementation of Notepad++.'
   homepage 'https://github.com/dail8859/NotepadNext'
