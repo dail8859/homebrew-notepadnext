@@ -1,6 +1,6 @@
 cask 'notepadnext' do
   version '0.13'
-  sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+  sha256 '88f74d7c5c8b1824396535cde02505b898d9e8046aab2012b73771803b409a10'
 
   url "https://github.com/dail8859/NotepadNext/releases/download/v#{version}/NotepadNext-v#{version}.dmg"
   name 'NotepadNext'
