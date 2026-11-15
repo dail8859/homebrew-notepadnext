@@ -1,8 +1,11 @@
 cask 'notepadnext' do
-  version '0.14'
-  sha256 '15608b53478bb46831a457e6f57397521fc8314ca39c8e2f1b309f95c96cc909'
+  arch arm: "arm64", intel: "x64"
 
-  url "https://github.com/dail8859/NotepadNext/releases/download/v#{version}/NotepadNext-v#{version}.dmg"
+  version "0.15"
+  sha256 arm:   "b3c950c8f9909014d3ed6479bd477baf1d97ac36efe6a30716580d7df32686e9",
+         intel: "406ce68884f80cd79c42fd779a0707401e81980c1614f3e5a572d0507ed644b4"
+
+  url "https://github.com/dail8859/NotepadNext/releases/download/v#{version}/NotepadNext-v#{version}-#{arch}.dmg"
   name 'NotepadNext'
   desc 'A cross-platform, reimplementation of Notepad++.'
   homepage 'https://github.com/dail8859/NotepadNext'
